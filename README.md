@@ -1,3 +1,12 @@
+## DEV BRANCH README POKUS
+- Create "master" branch
+- Commit and Push Initial version to Master
+- Create "dev" branch
+- Checkout Dev
+- Update README.md
+- Push to Dev
+- Merge with master (?)
+
 ## Installation Guide
 - Install GIT - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 - Install Docker - https://www.docker.com/products/docker-desktop
