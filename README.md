@@ -5,7 +5,7 @@
 - Checkout Dev
 - Update README.md
 - Push to Dev
-- Merge with master (?)
+- Merge with master
 
 ## Installation Guide
 - Install GIT - https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
@@ -37,7 +37,7 @@ npm run build
 npm run wdio
 
 /* Deploy to Firebase */
-./node_modules/.bin/firebase deploy --token=$FIREBASE_DEPLOY_TOKEN
+./node_modules/.bin/firebase deploy --token "$FIREBASE_DEPLOY_TOKEN"
 
 
 ```
