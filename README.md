@@ -37,7 +37,7 @@ npm run build
 npm run wdio
 
 /* Deploy to Firebase */
-./node_modules/.bin/firebase deploy --token=$FIREBASE_DEPLOY_TOKEN
+./node_modules/.bin/firebase deploy --token "$FIREBASE_DEPLOY_TOKEN"
 
 
 ```
