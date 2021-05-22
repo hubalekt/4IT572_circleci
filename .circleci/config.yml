@@ -3,16 +3,22 @@ vse: &vse
     - image: circleci/node:8.11.3
 version: 2.1
 jobs:
-  build:
+  test:
     <<: *vse
     steps:
       - checkout
       - run: npm install
       - run: npm run test
+
+  build:
+    <<: *vse
+    steps:
+      - run: npm run build
       - persist_to_workspace:
           root: .
           paths:
-            - .
+            - . 
+  
   deploy:
     <<: *vse
     steps:
